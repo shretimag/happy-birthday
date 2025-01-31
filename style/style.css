@@ -1,11 +1,13 @@
 html {
   box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+  background-color: #f8c6f2;
 }
 
 body {
   margin: 0;
-  font-family: "Work Sans", sans-serif;
-  background-color: f8c6f2;
+  
+  
 }
 
 .container {
@@ -126,8 +128,9 @@ body {
 .six .hat {
   position: absolute;
   width: 80px;
-  top: -35px;
-  left: 600px;
+  left: 200px;
+  rotate: -35deg;
+  
   /* transform: scale(0.1); */
 }
 
@@ -296,5 +299,10 @@ body {
   .nine p {
     font-size: 1.5rem;
     font-weight: lighter;
+  }
+}
+.audio{
+  h3 {
+    visibility: hidden;
   }
 }
