@@ -11,9 +11,15 @@
   <link rel="stylesheet" href="style/style.css">
 </head>
 
+
+
 <body>
-  <div class="container">
-    <div class="one">
+  <audio autoplay loop hidden>
+    <source src="Perfect.mp3" type="audio/ogg">
+    <embed src="Perfect.mp3" autostart="true" loop="true" hidden="true"> 
+  </audio>
+ <div class="container">
+   <div class="one">
       <h1 class="one">
         <span data-node-name="greeting">Hey</span>
         <span data-node-name="name">Lydia</span>
@@ -123,6 +129,7 @@
       <p data-node-name="outroText">Okay, now come back and tell me if you liked it.</p>
       <p id="replay" data-node-name="replayText">Or click, if you want to watch it again.</p>
       <p class="last-smile" data-node-name="outroSmiley">:)</p>
+      <p id="replay" data-node-name="replayText"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Click here for a your actual gift hehe </a></p>
     </div>
   </div>
 </body>
